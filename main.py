@@ -75,7 +75,6 @@ def user_input(user_question):
         {"input_documents":docs, "question": user_question}
         , return_only_outputs=True)
 
-    print(response)
     st.write("Reply: ", response["output_text"])
 
 
